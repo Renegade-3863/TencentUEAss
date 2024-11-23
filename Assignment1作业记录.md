@@ -25,6 +25,10 @@ git push  # 推送文件
 ```
 
 #### 问题更新：
-- Windows 端 BlueStack 模拟器可以以 OpenGL 兼容模式跑起来打包的文件，但是渲染会有问题，屏幕下半是蓝色的，目前原因不明
+1. Windows 端 BlueStack 模拟器可以以 OpenGL 兼容模式跑起来打包的文件，但是渲染会有问题，屏幕下半是蓝色的，目前原因不明
 ![image](https://github.com/user-attachments/assets/20124be4-800b-4b2d-a1c2-0aa3a5ab2656)
+1_Sol. 问题已解决，在BlueStack 设置中把界面渲染器从 OpenGL/DirectX 切换为 "软件" 即可
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/b5b7f5c5-d84b-4975-bf43-823939b68832">
+![image](https://github.com/user-attachments/assets/6484a291-3d11-4bff-bcb8-3a9f0295d7c8)
+
 

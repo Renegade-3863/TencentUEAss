@@ -23,3 +23,8 @@ git push  # 推送文件
 # 不难理解是在仓库本地存储一个 lfs 模块可以理解的远端存储的访问链接
 # 在需要下载的时候解析索引提供下载链接来完成对大文件的访问操作
 ```
+
+#### 问题更新：
+- Windows 端 BlueStack 模拟器可以以 OpenGL 兼容模式跑起来打包的文件，但是渲染会有问题，屏幕下半是蓝色的，目前原因不明
+![image](https://github.com/user-attachments/assets/20124be4-800b-4b2d-a1c2-0aa3a5ab2656)
+

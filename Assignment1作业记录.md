@@ -5,7 +5,7 @@
 
 #### 完成情况：
 - 源码编译和空白项目创建已完成，具体流程参考了 csdn 博主：闪耀的橙子 https://blog.csdn.net/Wavecut_Platform/article/details/143919760 的经验，在此声明以表感谢
-- 打包过程参考了 csdn 博主：晴窗v https://blog.csdn.net/qq_35587645/article/details/139207695，在此声明以表感谢
+- 打包过程参考了 csdn 博主：晴窗v https://blog.csdn.net/qq_35587645/article/details/139207695 的博客，在此声明以表感谢
 > 目前的不足之处，尝试了多种 PC 端的 Android 模拟设备，由于硬件驱动和 OpenGL 版本等原因，只有 mac 端的 Mumu 模拟器可以正常运行打包出来的 .apk 文件
 - 手头没有安卓手机，所以实际调试难度可能较大
 - 新學習了向 Github 提交超過 100 MiB 大文件的方法：使用 lfs

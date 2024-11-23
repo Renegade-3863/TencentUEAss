@@ -16,4 +16,10 @@ git commit -m "commit_message"  # 提交文件
 git push  # 推送文件
 # 感谢 csdn 博主 wyw0000 的博客：https://blog.csdn.net/wyw0000/article/details/132719319
 # 细节问题：为什么 lfs 需要生成一个 .gitattributes 文件？
+# 解答：
+# 观察 .gitattributes 文件中记录的这些信息，不难看出，这就是一个保存了需要 lfs 模块管理的大文件的类似索引的记录文件
+# Assignment1-arm64.apk filter=lfs diff=lfs merge=lfs -text
+# 结合 lfs 管理文件的特性：远程服务器存储，而不是 github 仓库本地存储
+# 不难理解是在仓库本地存储一个 lfs 模块可以理解的远端存储的访问链接
+# 在需要下载的时候解析索引提供下载链接来完成对大文件的访问操作
 ```

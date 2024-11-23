@@ -14,4 +14,6 @@ git lfs track "file_name"
 git add "file_name" 
 git commit -m "commit_message"  # 提交文件
 git push  # 推送文件
+# 感谢 csdn 博主 wyw0000 的博客：https://blog.csdn.net/wyw0000/article/details/132719319
+# 细节问题：为什么 lfs 需要生成一个 .gitattributes 文件？
 ```

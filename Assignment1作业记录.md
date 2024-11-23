@@ -8,3 +8,10 @@
 - 打包过程参考了 csdn 博主：晴窗v https://blog.csdn.net/qq_35587645/article/details/139207695，在此声明以表感谢
 > 目前的不足之处，尝试了多种 PC 端的 Android 模拟设备，由于硬件驱动和 OpenGL 版本等原因，只有 mac 端的 Mumu 模拟器可以正常运行打包出来的 .apk 文件
 - 手头没有安卓手机，所以实际调试难度可能较大
+- 新學習了向 Github 提交超過 100 MiB 大文件的方法：使用 lfs
+``` bash
+git lfs track "file_name"  
+git add "file_name" 
+git commit -m "commit_message"  # 提交文件
+git push  # 推送文件
+```

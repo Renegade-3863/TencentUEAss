@@ -1,0 +1,2 @@
+Assignment1 filter=lfs diff=lfs merge=lfs -text
+Assignment1-arm64.apk filter=lfs diff=lfs merge=lfs -text
